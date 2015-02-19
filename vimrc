@@ -57,7 +57,7 @@ set wildmode=full       " <Tab> cycles between all matching choices
 set cursorline          " have a line indicate the cursor location
 set ruler               " show the cursor position all the time
 set nostartofline       " Avoid moving cursor to BOL when jumping around
-set wrap                " Wrap test
+set wrap                " Wrap text
 set linebreak           " don't wrap text in the middle of a word
 set autoindent          " always set autoindenting on
 set smartindent         " use smart indent if there is no ident file
