@@ -20,6 +20,8 @@ alias iptlist='sudo /sbin/iptables -L -n -v --line-numbers'
 alias iptlistin='sudo /sbin/iptables -L INPUT -n -v --line-numbers'
 alias iptlistout='sudo /sbin/iptables -L OUTPUT -n -v --line-numbers'
 alias iptlistfw='sudo /sbin/iptables -L FORWARD -n -v --line-numbers'
+alias sdig='dig +short'
+alias rsdig='dig +short -x'
 
 if [ -x `which screen` ]; then screen -q -ls; [ $? -ge 10 ] && screen -ls; fi
 
