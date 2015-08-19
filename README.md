@@ -1,3 +1,3 @@
-#H1 Dotfiles
+#Dotfiles
 
 This is a repository of my *nix dot files.
