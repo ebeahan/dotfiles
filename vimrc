@@ -32,7 +32,7 @@ Plugin 'scrooloose/nerdtree'
 " Vim Markdown
 Plugin 'plasticboy/vim-markdown'
 " Python-mode
-Plugin 'klen/python-mode'
+" Plugin 'klen/python-mode'
 " fugitive.vim plugin
 Plugin 'tpope/vim-fugitive'
 " jedi-vim plugin
@@ -58,6 +58,8 @@ Plugin 'moorereason/vim-markdownfmt'
 Plugin 'terryma/vim-multiple-cursors'
 " vim-python-pep8-indent
 Plugin 'Vimjas/vim-python-pep8-indent'
+" vim-puppet
+Plugin 'rodjek/vim-puppet'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -75,8 +77,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 syntax enable               " syntax highlighting
-set background=dark
-colorscheme solarized
+set background=light
+colorscheme slate
 let g:rehash256 = 1
 let g:molokai_original = 1
 " colorscheme slate       " custom colorscheme
@@ -100,7 +102,7 @@ set shiftwidth=2        " And an indent level is 2 spaces wide.
 set softtabstop=2       " <BS> over an autoident deletes all spaces.
 set expandtab           " Use spaces, not tabs, for autoindents/tab key.
 set shiftround          " rounds indent to a multiple shiftwidth
-"set formatoptions=tcroql " Setting text and comment formatting to auto
+set formatoptions=tcroql " Setting text and comment formatting to auto
 set textwidth=120       " lines are autotically wrapped after 80 columns
 set nofoldenable        " turn off folding
 set colorcolumn=120     " highlight column 80 (where words will wrap)
